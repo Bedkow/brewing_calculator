@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../src/assets/grapePointingRight.jpg">
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a class="nav-link" href='../index.html'><b>Home</b></a></li>
+                <li><a class="nav-link" href='calculators.html'><b>Calculators</b></a></li>
+                <li><a class="nav-link" href='/blog/blog.html'><b>Blog</b></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class='calcs-container'>
+        <div class='calc-button secondary-text'>Calc1</div>
+        <div class='calc-button secondary-text'>Calc2</div>
+        <div class='calc-button secondary-text'>Calc3</div>
+    </div>
+
+    <!-- pasted from older ver, check -->
+    <section id='calc1-window' class="calcs-windows" >
+		<h1>BREWING CALCULATOR</h1>
+
+		
+			<p>Desired % of alcohol:</p>
+			<input type='number' class='desired-alcohol'/>
+			<br />
+			<p>Desired final volume (L):</p>
+			<input type='number' class='volume'/>
+            <br />
+            <br />
+            <br />
+			<button class='calc'>Calculate</button>
+		<br><br /><br />
+
+        <div class='sugar-to-add'></div>
+    </section>
+    <!-- @@@ -->
+    </section> 
+    <section id='calc2-window' class='hidden calcs-windows'>
+
+        Calc 2 window
+
+    </section> 
+    <section id='calc3window' class='hidden calcs-windows'>
+
+        Calc 3 window
+        
+    </section> 
+
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="bundle.js"></script>
+</body>
+</html>
