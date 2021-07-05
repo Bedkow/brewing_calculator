@@ -1,15 +1,13 @@
 {
-	"name": "20210307_webpack",
-	"version": "1.0.0",
+	"name": "brewing_calculator",
+	"version": "0.0.1",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "webpack --mode=production",
-		"build:dev": "webpack --mode=development",
-		"start:dev": "webpack-dev-server --mode=development"
+		"start": "webpack-dev-server --mode=development"
 	},
-	"author": "MarcinDl <marcindl@hotmail.com> (http://www.softlab.mem)",
+	"author": "Bedkow",
 	"license": "ISC",
 	"dependencies": {
 		"@babel/core": "^7.4.0",
