@@ -20,20 +20,22 @@
 			<h1 id="title">Brewing Calculator</h1>
 		</header>
 
-		<!-- pasted from older ver, check -->
 		<section id="calc1">
-			<p class="secondary-text">Desired % of alcohol:</p>
-			<input type="number" class="desired-alcohol" />
-			<br />
-			<p class="secondary-text">Desired final volume (L):</p>
-			<input type="number" class="volume" />
-			<br />
-			<br />
-			<br />
-			<button class="calc secondary-text">Calculate</button>
-			<br /><br /><br />
+			<div class="grid-item">
+				<p class="secondary-text alcohol-content">
+					Desired alcohol content (%):
+				</p>
+				<input type="number" />
+			</div>
+			<div class="grid-item final-volume">
+				<p class="secondary-text">Desired final volume (L):</p>
+				<input type="number" />
+			</div>
 
-			<div class="sugar-to-add secondary-text"></div>
+			<div class="sugar-to-add secondary-text grid-item">Sugar to add:</div>
+			<div class="sugar-volume secondary-text grid-item">
+				Volume added in sugar:
+			</div>
 		</section>
 		<footer>F</footer>
 		<script src="https://unpkg.com/vue@next"></script>
