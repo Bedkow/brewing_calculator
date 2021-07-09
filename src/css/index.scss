@@ -1,6 +1,18 @@
 $secondary-color: #2f2d2d;
 $primary-color: rgb(204, 204, 204);
 
+@media screen and (max-width: 600px) {
+	.secondary-text {
+		height: auto;
+		font-size: 1rem;
+		text-align: center;
+	}
+
+	input {
+		margin-top: 10px;
+	}
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -20,6 +32,7 @@ body {
 .secondary-text {
 	color: $secondary-color;
 	font-family: "Oleo Script", cursive;
+	height: 30%;
 }
 
 header,
@@ -32,7 +45,6 @@ footer {
 
 #title {
 	color: $primary-color;
-	height: 100%;
 	font-size: 400%;
 	margin: 0 auto;
 	text-align: center;
@@ -60,7 +72,13 @@ footer {
 
 .grid-item {
 	height: 100%;
-	// width: 100%;
 	text-align: center;
 	font-size: 2rem;
+}
+
+input {
+	width: 80%;
+	height: 20%;
+	font-size: 2rem;
+	text-align: center;
 }

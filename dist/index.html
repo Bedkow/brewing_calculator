@@ -12,7 +12,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" href="./src/assets/img/grapePointingRight.jpg" />
+		<link rel="icon" type="image/png" href="wine.png" />
 		<title>Calculator</title>
 	</head>
 	<body>
@@ -21,10 +21,8 @@
 		</header>
 
 		<section id="calc1">
-			<div class="grid-item">
-				<p class="secondary-text alcohol-content">
-					Desired alcohol content (%):
-				</p>
+			<div class="grid-item alcohol-content">
+				<p class="secondary-text">Desired alcohol content (%):</p>
 				<input type="number" />
 			</div>
 			<div class="grid-item final-volume">
@@ -32,12 +30,19 @@
 				<input type="number" />
 			</div>
 
-			<div class="sugar-to-add secondary-text grid-item">Sugar to add:</div>
+			<div class="sugar-to-add grid-item">
+				<p class="secondary-text">Sugar to add:</p>
+			</div>
 			<div class="sugar-volume secondary-text grid-item">
-				Volume added in sugar:
+				<p class="secondary-text">Volume added in sugar:</p>
 			</div>
 		</section>
-		<footer>F</footer>
+		<footer>
+			<div id="footer-imgs">
+				<img src="github.png" alt="github icon" />
+				<img src="linkedin.png" alt="linkedin icon" />
+			</div>
+		</footer>
 		<script src="https://unpkg.com/vue@next"></script>
 		<script src="bundle.js"></script>
 	</body>
