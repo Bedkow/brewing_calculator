@@ -76,11 +76,13 @@ footer {
 	font-size: 2rem;
 }
 
-input {
+input,
+.output {
 	width: 80%;
 	height: 20%;
 	font-size: 2rem;
 	text-align: center;
+	margin: 20px auto;
 }
 
 #footer-imgs {
