@@ -1,9 +1,11 @@
-## brewing_calculator
+## Brewing Calculator ([Demo](https://brewing-calculator-1ca53.web.app/))
 
 ![Vue 3](https://img.shields.io/badge/Vue3-green)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Bedkow/brewing_calculator?style=plastic)
 ![GitHub language count](https://img.shields.io/github/languages/count/Bedkow/brewing_calculator?style=plastic)
 ![GitHub top language](https://img.shields.io/github/languages/top/Bedkow/brewing_calculator?style=plastic)
+
+
 
 A single-page brewing calculator. Developed with JS, Sass and basic Vue 3.
 
