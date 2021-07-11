@@ -1,19 +1,17 @@
 ## brewing_calculator
 
-A single-page brewing calculator. Developed with JS, Sass and basic Vue 3 use, through CDN import.
+![Vue 3](https://img.shields.io/badge/Vue3-green)
+![GitHub repo size](https://img.shields.io/github/repo-size/Bedkow/brewing_calculator?style=plastic)
+![GitHub language count](https://img.shields.io/github/languages/count/Bedkow/brewing_calculator?style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/Bedkow/brewing_calculator?style=plastic)
 
-A calculator for the amount of sugar that needs to be added to wine/cider/beer [wort](https://en.wikipedia.org/wiki/Wort)/[must](https://en.wikipedia.org/wiki/Must) in order to get desired alcohol % and sweetness.
-Includes inputs for desired %, yeast's alcohol tolerance, and desired final volume in liters.
+A single-page brewing calculator. Developed with JS, Sass and basic Vue 3.
 
-Next possible features:
+A calculator for the amount of sugar that needs to be added to wine/cider/beer [wort](https://en.wikipedia.org/wiki/Wort)/[must](https://en.wikipedia.org/wiki/Must) in order to get desired alcohol %.
+Includes inputs for desired %, and desired final volume in liters.
 
-- a list of fruits and their sugar content
-- [Balling scale](https://www.oxfordreference.com/view/10.1093/acref/9780195367133.001.0001/acref-9780195367133-e-107) support
+### Installation:
 
-Using:
-
-- Vue.js 3
-- Webpack 5
-- Sass
-
-_under dev_
+`npm install` - install dependencies <br>
+`npm run build` - build production app <br>
+`npm run start` - start a dev server at port _9000_

@@ -19,26 +19,27 @@
 		<header>
 			<h1 id="title">Brewing Calculator</h1>
 		</header>
+		<div id="app" v-cloak>
+			<section id="calc1">
+				<div class="grid-item alcohol-content">
+					<p class="secondary-text">Desired alcohol content (%):</p>
+					<input type="number" v-model.number="alcoholContent" />
+				</div>
+				<div class="grid-item final-volume">
+					<p class="secondary-text">Desired final volume (l):</p>
+					<input type="number" v-model.number="finalVolume" />
+				</div>
 
-		<section id="calc1">
-			<div class="grid-item alcohol-content">
-				<p class="secondary-text">Desired alcohol content (%):</p>
-				<input type="number" />
-			</div>
-			<div class="grid-item final-volume">
-				<p class="secondary-text">Desired final volume (L):</p>
-				<input type="number" />
-			</div>
-
-			<div class="sugar-to-add grid-item">
-				<p class="secondary-text">Sugar to add (g):</p>
-				<div class="output">13932</div>
-			</div>
-			<div class="sugar-volume grid-item">
-				<p class="secondary-text">Volume added in sugar (mL):</p>
-				<div class="output">34479</div>
-			</div>
-		</section>
+				<div class="sugar-to-add grid-item">
+					<p class="secondary-text">Sugar to add (g):</p>
+					<div class="output">{{ Math.round(sugarToAdd()) }}</div>
+				</div>
+				<div class="sugar-volume grid-item">
+					<p class="secondary-text">Volume added in sugar (ml):</p>
+					<div class="output">{{ Math.round(sugarToAdd() * 0.6) }}</div>
+				</div>
+			</section>
+		</div>
 		<footer>
 			<div id="footer-imgs">
 				<a href="https://github.com/Bedkow" target="_blank"
